@@ -1,0 +1,40 @@
+# Credenciales
+.env
+.env.*
+!.env.example
+
+# Receptor original con configuración privada
+receptor_private.py
+
+# Python
+__pycache__/
+*.pyc
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# AquaVision data
+data/
+imagenes/
+imagenes_v3/
+mascaras/
+overlays_v3/
+
+# Generated data
+*.csv
+*.jsonl
+estado.json
+
+# Backups
+backup*/
+*_backup*
+receptor_backup*.py
+receptor_antes*.py
+
+# Logs
+*.log
+
+# OS
+.DS_Store

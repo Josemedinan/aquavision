@@ -1,0 +1,6 @@
+Flask
+numpy
+opencv-python
+adafruit-circuitpython-dht
+smbus2
+python-dotenv
